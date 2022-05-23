@@ -41,7 +41,6 @@ APPLICATION_KINTO_REVIEW_PATH = {
     ),
 }
 
-nimbus_rust = pytest.importorskip("nimbus_rust")
 
 @pytest.fixture
 def slugify():
